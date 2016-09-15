@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        android:title="@string/action_clear"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_circle"
+        android:orderInCategory="200"
+        android:title="@string/action_circle"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_polygon"
+        android:orderInCategory="300"
+        android:title="@string/action_polygon"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_overlay"
+        android:orderInCategory="400"
+        android:title="@string/action_overlay"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_traffic"
+        android:orderInCategory="500"
+        android:title="@string/action_traffic"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cycle_map_type"
+        android:orderInCategory="600"
+        android:title="@string/action_cycle_map_type"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_print_trace"
+        android:orderInCategory="700"
+        android:title="@string/action_print_trace"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_directions_walk_black_24dp"/>
+    <item
+        android:id="@+id/action_where_am_i"
+        android:orderInCategory="800"
+        android:title="@string/action_where_am_i"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_pin_drop_black_24dp"/>
+</menu>

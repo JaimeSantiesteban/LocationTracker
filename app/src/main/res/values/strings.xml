@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LocationTracker_JS</string>
+    <string name="google_api_key">AIzaSyB2JpPug47GcRdIjQSy5TaeQOl4s-0qpDw</string>
+    <string name="action_clear">clear</string>
+    <string name="action_circle">Draw Circle</string>
+    <string name="action_polygon">Draw Polygon</string>
+    <string name="action_traffic">Show traffic</string>
+    <string name="action_cycle_map_type">Map Type</string>
+    <string name="action_overlay">Draw Overlay</string>
+    <string name="action_print_trace">Print Trace</string>
+    <string name="action_where_am_i">Where am I ?</string>
+</resources>
